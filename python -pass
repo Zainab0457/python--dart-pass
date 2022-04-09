@@ -1,1 +1,9 @@
-
+def main(): 
+   x=int (input ("Enter x values: "))
+    num list=[]
+    if x>0 and x<=10:
+       for i in range (x):
+  num list.append (int (input (" ")))
+       for i in num list:
+print (f"{i} is {' odd' if i%2 else 'even'}")
+  main()
